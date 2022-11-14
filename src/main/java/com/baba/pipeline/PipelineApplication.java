@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PipelineApplication {
 	@GetMapping
-	public String message(){return "Baba is live";}
+	public String message(){return "Baba is live now";}
 
 	public static void main(String[] args) {
 		SpringApplication.run(PipelineApplication.class, args);
